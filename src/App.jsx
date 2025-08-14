@@ -120,7 +120,7 @@ const App = () => {
 
             <p className='text-sm text-justify'>A user-friendly web application that allows users to browse, book, and rent bikes seamlessly. Features include real-time bike availability, interactive UI for selecting bikes, and secure booking. Built with React, Tailwind CSS, and integrated with Git for version control.</p>
             <motion.button whileHover={{ opacity: 0.8}}
-          whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://portfolio-nu-seven-94.vercel.app/" target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
+          whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://rental-app-peach.vercel.app/" target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
           </div>
            <div className='flex flex-col  shadow-[0_0_15px_rgba(0,0,0,0.3)]   bg-[#25324b]      w-75 m-2 rounded-lg  p-4 py-5'>
             <img src="portofoli.png" alt="" className='w-70 h-40 object-fit rounded-md  shadow-[0_0_15px_rgba(0,0,0,0.3)] ' />
@@ -148,7 +148,7 @@ const App = () => {
 
             <p className='text-sm text-justify'>A modern, responsive portfolio website showcasing my projects, skills, and experience. Designed with a clean UI and smooth scrolling animations using React and Tailwind CSS, it highlights my work in an organized and visually appealing manner.</p>
             <motion.button whileHover={{ opacity: 0.8 }}
-          whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://rental-app-peach.vercel.app/"  target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
+          whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://portfolio-nu-seven-94.vercel.app/"  target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
           </div>
 
           <div className='flex flex-col  shadow-[0_0_15px_rgba(0,0,0,0.3)]   bg-[#25324b]      w-75 m-2 rounded-lg  p-4 py-5'>
