@@ -82,7 +82,7 @@ const App = () => {
     </div>
        <div  className=' my-4 flex flex-col -mx-3 justify-center    gap-4  sm:flex-row sm:gap-4 sm:justify-normal sm:mt-4 sm:-ml-2'>
          <motion.button  whileHover={{ opacity: 0.8}}
-          whileTap={{ scale: 0.95 }}  className='bg-linear-to-bl from-violet-500 to-fuchsia-500 px-6 py-2 mx-1.5 rounded-r-full rounded-l-full flex justify-center items-center '><a href="./public/resume.pdf" download='resume.pdf'>DOWNLOAD CV</a></motion.button>
+          whileTap={{ scale: 0.95 }}  className='bg-linear-to-bl from-violet-500 to-fuchsia-500 px-6 py-2 mx-1.5 rounded-r-full rounded-l-full flex justify-center items-center '><a href="resume.pdf" download='resume.pdf'>DOWNLOAD CV</a></motion.button>
         <motion.button  whileHover={{ opacity: 0.8}}
           whileTap={{ scale: 0.95 }} className='bg-linear-to-bl from-violet-500 to-fuchsia-500 px-6 py-2 rounded-r-full rounded-l-full mx-2  flex justify-center items-center'><a href="mailto:prasadkumar9692@gmail.com ">CONTACT ME</a></motion.button>
        </div>
