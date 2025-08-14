@@ -24,7 +24,7 @@ const App = () => {
           <motion.button 
           whileHover={{ opacity: 0.9}}
           whileTap={{ scale: 0.95 }}
-          className= 'bg-white hidden sm:block px-6 py-2 rounded-r-full rounded-l-full bg-linear-to-bl from-violet-500 to-fuchsia-500 text-amber-100'><a href="./public/resume.pdf" download='resume'>RESUME</a></motion.button>
+          className= 'bg-white hidden sm:block px-6 py-2 rounded-r-full rounded-l-full bg-linear-to-bl from-violet-500 to-fuchsia-500 text-amber-100'><a href="resume.pdf" download='resume.pdf'>RESUME</a></motion.button>
           <motion.button   whileHover={{ opacity: 0.7}}
           whileTap={{ scale: 0.95 }}className= 'bg-linear-to-bl from-violet-500 to-fuchsia-500 block sm:hidden p-2 rounded-sm text-amber-100'
           onClick={() => setMenuOpen(!menuOpen)}> <svg
@@ -67,7 +67,7 @@ const App = () => {
 
         </p>
          <div className="flex space-x-4 text-xl mt-1.5 sm:mt-2 text-linear-to-bl from-violet-500 to-fuchsia-500 sm:text-2xl">
-      <a className='bg-linear-to-bl from-violet-500 to-fuchsia-500 rounded-full' href="https://linkedin.com/in/prasad-kumar-sahoo-787865295" target="_blank" rel="noopener noreferrer">
+      <a className='bg-linear-to-bl from-violet-500 to-fuchsia-500 rounded-full' href="https://github.com/Prasadksahoo" target="_blank" rel="noopener noreferrer">
         <FaGithub />
       </a>
       <a  className='' href="https://linkedin.com/in/prasad-kumar-sahoo-787865295" target="_blank" rel="noopener noreferrer">
@@ -82,7 +82,7 @@ const App = () => {
     </div>
        <div  className=' my-4 flex flex-col -mx-3 justify-center    gap-4  sm:flex-row sm:gap-4 sm:justify-normal sm:mt-4 sm:-ml-2'>
          <motion.button  whileHover={{ opacity: 0.8}}
-          whileTap={{ scale: 0.95 }}  className='bg-linear-to-bl from-violet-500 to-fuchsia-500 px-6 py-2 mx-1.5 rounded-r-full rounded-l-full flex justify-center items-center '><a href="./public/resume.pdf" download='resume'>DOWNLOAD CV</a></motion.button>
+          whileTap={{ scale: 0.95 }}  className='bg-linear-to-bl from-violet-500 to-fuchsia-500 px-6 py-2 mx-1.5 rounded-r-full rounded-l-full flex justify-center items-center '><a href="./public/resume.pdf" download='resume.pdf'>DOWNLOAD CV</a></motion.button>
         <motion.button  whileHover={{ opacity: 0.8}}
           whileTap={{ scale: 0.95 }} className='bg-linear-to-bl from-violet-500 to-fuchsia-500 px-6 py-2 rounded-r-full rounded-l-full mx-2  flex justify-center items-center'><a href="mailto:prasadkumar9692@gmail.com ">CONTACT ME</a></motion.button>
        </div>
@@ -120,7 +120,7 @@ const App = () => {
 
             <p className='text-sm text-justify'>A user-friendly web application that allows users to browse, book, and rent bikes seamlessly. Features include real-time bike availability, interactive UI for selecting bikes, and secure booking. Built with React, Tailwind CSS, and integrated with Git for version control.</p>
             <motion.button whileHover={{ opacity: 0.8}}
-          whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://rental-app-peach.vercel.app/" target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
+          whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://portfolio-nu-seven-94.vercel.app/" target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
           </div>
            <div className='flex flex-col  shadow-[0_0_15px_rgba(0,0,0,0.3)]   bg-[#25324b]      w-75 m-2 rounded-lg  p-4 py-5'>
             <img src="portofoli.png" alt="" className='w-70 h-40 object-fit rounded-md  shadow-[0_0_15px_rgba(0,0,0,0.3)] ' />
