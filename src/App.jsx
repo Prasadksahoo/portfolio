@@ -242,7 +242,7 @@ const App = () => {
          <a href="https://facebook.com/prince.prasad.902819/" target="_blank" rel="noopener noreferrer">Facebook</a>
          <a href="https://x.com/Engg_Prasad7" target="_blank" rel="noopener noreferrer">Twitter</a>
          <a href="https://linkedin.com/in/prasad-kumar-sahoo-787865295" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-         <a href="https://linkedin.com/in/prasad-kumar-sahoo-787865295" target="_blank" rel="noopener noreferrer">GitHub</a>
+         <a href="https://github.com/Prasadksahoo" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
        </div>
       </div>
