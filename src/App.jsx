@@ -186,37 +186,37 @@ const App = () => {
        <div className='grid grid-cols-2 items-center justify-center   sm:grid sm:grid-cols-4 sm:gap-8 mt-4 gap-4'>
                                                                                                                                            
         <div className=' bg-[#2c3a53] sm:w-50 sm:h-50 flex w-30 h-30 flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
-          <img src="ht.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p classname='  text-5xl font-bold' >HTML</p>
+          <img src="ht.jpg" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
+          <p className='  text-xl font-bold' >HTML</p>
        </div>
             
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="css.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p classname='  text-5xl font-bold' >CSS</p>
+          <p className='  text-xl font-bold' >CSS</p>
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="js.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p classname='  text-5xl font-bold' >JAVASCRIPT</p>
+          <p className='  text-xl font-bold'' >JAVASCRIPT</p>
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="reacct.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p classname='  text-5xl font-bold' >REACT</p>
+          <p className='  text-xl font-bold'' >REACT</p>
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="node.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p classname='  text-5xl font-bold' >NODE</p>
+          <p className='  text-xl font-bold' >NODE</p>
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="express.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p classname='  text-5xl font-bold' >EXPRESS</p>
+          <p className='  text-xl font-bold' >EXPRESS</p>
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="mongo.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p classname='  text-5xl font-bold' >MONGODB</p>
+          <p className='  text-xl font-bold'>MONGODB</p>
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="git.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p classname='  text-5xl font-bold' >GIT</p>
+          <p className='  text-xl font-bold'>GIT</p>
        </div>
 
        
