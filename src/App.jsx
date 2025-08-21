@@ -177,7 +177,7 @@ const App = () => {
 
             <p className='text-sm text-justify'>A full-stack real-time chat application built with the MERN stack (MongoDB, Express.js, React, Node.js) and Socket.IO for instant messaging. The app allows users to sign up, log in, and chat in real-time with secure authentication using JWT</p>
             <motion.button whileHover={{ opacity: 0.8}}
-          whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://chat-app-1-ue1i.onrender.com/ target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
+          whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://chat-app-1-ue1i.onrender.com/" target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
           </div>
         </div>
       </div>
