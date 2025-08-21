@@ -123,8 +123,8 @@ const App = () => {
           whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://rental-app-peach.vercel.app/" target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
           </div>
            <div className='flex flex-col  shadow-[0_0_15px_rgba(0,0,0,0.3)]   bg-[#25324b]      w-75 m-2 rounded-lg  p-4 py-5'>
-            <img src="portofoli.png" alt="" className='w-70 h-40 object-fit rounded-md  shadow-[0_0_15px_rgba(0,0,0,0.3)] ' />
-            <div className='flex justify-between mt-1.5 my-2'><h2 className=''> PORTFOLIO</h2>
+            <img src="weather.png" alt="" className='w-70 h-40 object-fit rounded-md  shadow-[0_0_15px_rgba(0,0,0,0.3)] ' />
+            <div className='flex justify-between mt-1.5 my-2'><h2 className=''> WEATHER APP</h2>
              <div className='flex space-x-2 '>
       
       <FaReact size={20} color="#61DAFB" title="React" />
@@ -146,9 +146,9 @@ const App = () => {
     </div>
             </div>
 
-            <p className='text-sm text-justify'>A modern, responsive portfolio website showcasing my projects, skills, and experience. Designed with a clean UI and smooth scrolling animations using React and Tailwind CSS, it highlights my work in an organized and visually appealing manner.</p>
+            <p className='text-sm text-justify'>A responsive web application that provides real-time weather updates and forecasts for any city worldwide. The app integrates with the OpenWeather API to display temperature, humidity, wind speed, and detailed conditions. Built with a focus on clean UI/UX, it adapts seamlessly to desktop and mobile screens.</p>
             <motion.button whileHover={{ opacity: 0.8 }}
-          whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://portfolio-nu-seven-94.vercel.app/"  target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
+          whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://weather-website-lime-six.vercel.app/"  target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
           </div>
 
           <div className='flex flex-col  shadow-[0_0_15px_rgba(0,0,0,0.3)]   bg-[#25324b]      w-75 m-2 rounded-lg  p-4 py-5'>
@@ -175,7 +175,7 @@ const App = () => {
     </div>
             </div>
 
-            <p className='text-sm text-justify'>A full-stack real-time chat application built with the MERN stack (MongoDB, Express.js, React, Node.js) and Socket.IO for instant messaging. The app allows users to sign up, log in, and chat in real-time with secure authentication using JWT</p>
+            <p className='text-sm text-justify'>A full-stack real-time chat application built with the MERN stack (MongoDB, Express.js, React, Node.js,postman) and Socket.IO for instant messaging. The app allows users to sign up, log in, and chat in real-time with secure authentication using JWT</p>
             <motion.button whileHover={{ opacity: 0.8}}
           whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://chat-app-1-ue1i.onrender.com/" target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
           </div>
