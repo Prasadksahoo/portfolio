@@ -153,7 +153,7 @@ const App = () => {
 
           <div className='flex flex-col  shadow-[0_0_15px_rgba(0,0,0,0.3)]   bg-[#25324b]      w-75 m-2 rounded-lg  p-4 py-5'>
             <img src="weather.png" alt="" className='w-70 h-40 object-fit  rounded-md  shadow-[0_0_15px_rgba(0,0,0,0.3)] ' />
-            <div className='flex justify-between mt-1.5 my-2'><h2 className=''> WEATHER APP</h2>
+            <div className='flex justify-between mt-1.5 my-2'><h2 className=''> CHAT APP</h2>
              <div className='flex space-x-2 '>
       
       <FaReact size={20} color="#61DAFB" title="React" />
@@ -175,7 +175,7 @@ const App = () => {
     </div>
             </div>
 
-            <p className='text-sm text-justify'>A real-time weather application that provides accurate weather updates based on the user’s location or searched cities. Features include temperature, humidity, wind speed, and weather condition icons. Built with React and Tailwind CSS, it offers a clean andresponsive.</p>
+            <p className='text-sm text-justify'>A full-stack real-time chat application built with the MERN stack (MongoDB, Express.js, React, Node.js) and Socket.IO for instant messaging. The app allows users to sign up, log in, and chat in real-time with secure authentication using JWT</p>
             <motion.button whileHover={{ opacity: 0.8}}
           whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://weather-website-lime-six.vercel.app/" target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
           </div>
