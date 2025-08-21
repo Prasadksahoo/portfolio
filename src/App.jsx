@@ -184,11 +184,12 @@ const App = () => {
       <div id='SKILL'  className='w-screen  text-white font-serif  bg-[#1a2230] flex flex-col  items-center py-10'>
         <h1 className='text-2xl sm:text-3xl font-bold bg-clip-text text-transparent bg-linear-to-bl from-violet-500 to-fuchsia-500 mt-6 sm:mt-15'>SKILLS</h1>
        <div className='grid grid-cols-2 items-center justify-center   sm:grid sm:grid-cols-4 sm:gap-8 mt-4 gap-4'>
+                                                                                                                                           
         <div className=' bg-[#2c3a53] sm:w-50 sm:h-50 flex w-30 h-30 flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
-          <img src="html.jpg" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
+          <img src="ht.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
           <p classname='  text-5xl font-bold' >HTML</p>
-        
        </div>
+            
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="css.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
           <p classname='  text-5xl font-bold' >CSS</p>
