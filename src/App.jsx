@@ -196,11 +196,11 @@ const App = () => {
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="js.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p className='  text-xl font-bold'' >JAVASCRIPT</p>
+          <p className='  text-xl font-bold' >JAVASCRIPT</p>
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="reacct.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p className='  text-xl font-bold'' >REACT</p>
+          <p className='  text-xl font-bold'>REACT</p>
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="node.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
