@@ -146,7 +146,7 @@ const App = () => {
     </div>
             </div>
 
-            <p className='text-sm text-justify'>A responsive web application that provides real-time weather updates and forecasts for any city worldwide. The app integrates with the OpenWeather API to display temperature, humidity, wind speed, and detailed conditions. Built with a focus on clean UI/UX, it adapts seamlessly to desktop and mobile screens.</p>
+            <p className='text-sm text-justify'>A responsive web application that provides real-time weather updates and forecasts for any city worldwide. The app integrates with the OpenWeather API to display temperature, humidity, wind speed, and detailed conditions.</p>
             <motion.button whileHover={{ opacity: 0.8 }}
           whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://weather-website-lime-six.vercel.app/"  target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
           </div>
