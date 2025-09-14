@@ -53,7 +53,7 @@ const App = () => {
       </div>
       <div className='flex  my-25 p-3 rounded-md flex-col justify-center gap-3 items-center  sm:flex-row  sm:items-center  sm:p-20 sm:my-23 sm:justify-between sm:gap-20 text-white w-[80%] h-4/5'>
        <motion.div  className='w-40 aspect-square sm:w-52   flex-shrink-0 rounded-full   overflow-hidden flex  justify-center items-center  sm:flex-row  '> 
-       <motion.img  src="download.jpg" alt=""  className='w-full h-full  object-cover' /></motion.div>
+       <motion.img  src="Profile_photo.png" alt=""  className='w-full h-full  object-cover' /></motion.div>
         <div className='flex flex-col mt-2.5  sm:items-start sm:justify-start  sm:text-left'>
           <h2 className='text-xl font-bold sm:text-2xl'>Hi There,</h2>
        <h1 className='text-2xl sm:text-3xl font-bold'>I am {""}
