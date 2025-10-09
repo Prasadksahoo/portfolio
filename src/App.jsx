@@ -1,16 +1,19 @@
-import React,{ useState } from 'react'
+import React,{ useRef, useState } from 'react'
 import { FaGithub, FaLinkedin, FaTwitter, FaFacebook,FaUserCircle , FaReact, FaGitAlt} from "react-icons/fa";
 import { motion } from "motion/react";
 import { ReactTyped } from "react-typed";
+import emailjs from "@emailjs/browser";
+import ContactForm from "./components/ContactForm";
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
    const formhandler=(e)=>{
     e.preventDefault();
    }
+   
   return (
     <div className=' bg-gray-800 h-screen overflow-x-hidden  '>
-      <div  id='home' className='flex justify-center  font-serif space-y-5  min-h-screen w-screen bg-[#1a2230]'>
+      <div  id='home' className='flex justify-center font-serif space-y-5  min-h-screen w-screen bg-[#1a2230]'>
       <div className='flex justify-between items-center w-4/5 h-15 text-white shadow-[0_0_15px_rgba(0,0,0,0.3)]  backdrop-blur-xs bg-transparent fixed px-8 rounded-r-full rounded-l-full my-4'>
        <div className="text-gray-300">
       <FaUserCircle size={40} /> 
@@ -24,7 +27,7 @@ const App = () => {
           <motion.button 
           whileHover={{ opacity: 0.9}}
           whileTap={{ scale: 0.95 }}
-          className= 'bg-white hidden sm:block px-6 py-2 rounded-r-full rounded-l-full bg-linear-to-bl from-violet-500 to-fuchsia-500 text-amber-100'><a href="resume.pdf" download='resume.pdf'>DOWNLOAD CV </a></motion.button>
+          className= 'bg-white hidden sm:block px-6 py-2 rounded-r-full rounded-l-full bg-linear-to-bl from-violet-500 to-fuchsia-500 text-amber-100'><a href="./public/resume.pdf" download='resume'>RESUME</a></motion.button>
           <motion.button   whileHover={{ opacity: 0.7}}
           whileTap={{ scale: 0.95 }}className= 'bg-linear-to-bl from-violet-500 to-fuchsia-500 block sm:hidden p-2 rounded-sm text-amber-100'
           onClick={() => setMenuOpen(!menuOpen)}> <svg
@@ -146,7 +149,7 @@ const App = () => {
     </div>
             </div>
 
-            <p className='text-sm text-justify'>A responsive web application that provides real-time weather updates and forecasts for any city worldwide. The app integrates with the OpenWeather API to display temperature, humidity, wind speed, and detailed conditions.Built with a focus on clean UI/UX,</p>
+            <p className='text-sm text-justify'>A modern, responsive portfolio website showcasing my projects, skills, and experience. Designed with a clean UI and smooth scrolling animations using React and Tailwind CSS, it highlights my work in an organized and visually appealing manner.</p>
             <motion.button whileHover={{ opacity: 0.8 }}
           whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://weather-website-lime-six.vercel.app/"  target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
           </div>
@@ -175,7 +178,7 @@ const App = () => {
     </div>
             </div>
 
-            <p className='text-sm text-justify'>A full-stack real-time chat application built with the MERN stack (MongoDB, Express.js, React, Node.js,postman) and Socket.IO for instant messaging. The app allows users to sign up, log in, and show the online users to chat in real-time with secure authentication using JWT</p>
+            <p className='text-sm text-justify'>A real-time weather application that provides accurate weather updates based on the user’s location or searched cities. Features include temperature, humidity, wind speed, and weather condition icons. Built with React and Tailwind CSS, it offers a clean andresponsive.</p>
             <motion.button whileHover={{ opacity: 0.8}}
           whileTap={{ scale: 0.95 }}  className='w-full bg-gradient-to-bl from-violet-500 to-fuchsia-500  mt-1.5 px-4 py-2 rounded-full'><a href="https://chat-app-1-ue1i.onrender.com/" target='_blank' rel='noopener noreferrer'>Check it out</a></motion.button>
           </div>
@@ -186,8 +189,9 @@ const App = () => {
        <div className='grid grid-cols-2 items-center justify-center   sm:grid sm:grid-cols-4 sm:gap-8 mt-4 gap-4'>
                                                                                                                                            
         <div className=' bg-[#2c3a53] sm:w-50 sm:h-50 flex w-30 h-30 flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
-          <img src="ht.jpg" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p className='  text-xl font-bold' >HTML</p>
+          <img src="html.jpg" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
+          <p classname='  text-5xl font-bold' >HTML</p>
+        
        </div>
             
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
@@ -196,11 +200,11 @@ const App = () => {
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="js.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p className='  text-xl font-bold' >JAVASCRIPT</p>
+          <p classname='  text-5xl font-bold' >JAVASCRIPT</p>
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="reacct.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p className='  text-xl font-bold'>REACT</p>
+          <p classname='  text-5xl font-bold' >REACT</p>
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="node.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
@@ -212,11 +216,11 @@ const App = () => {
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="mongo.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p className='  text-xl font-bold'>MONGODB</p>
+          <p classname='  text-5xl font-bold' >MONGODB</p>
        </div>
         <div className=' bg-[#2c3a53]  sm:w-50 sm:h-50  w-30 h-30 flex  flex-col shadow-[0_0_15px_rgba(0,0,0,0.3)]  rounded-lg justify-center items-center'>
           <img src="git.png" alt=""  className='w-20 h-20 sm:w-30 sm:h-30 object-cover rounded-lg'/>
-          <p className='  text-xl font-bold'>GIT</p>
+          <p classname='  text-5xl font-bold' >GIT</p>
        </div>
 
        
@@ -228,25 +232,28 @@ const App = () => {
        </div>
       </div>
       <div id='contact' className=' w-screen bg-[#323437] flex flex-col justify-center gap-3 items-center text-xl sm:text-2xl text-white font-serif '>
-        <h1 className='font-bold '>CONTACT ME</h1>
-        <p className='text-center font-mono p-2.5'>If you would like to get in touch, feel free to reach out!</p>
+        <h1 className='font-bold mt-20'>CONTACT ME</h1>
+        <p className='text-center font-mono  p-2.5'>If you would like to get in touch, feel free to reach out!</p>
 
        <div className='grid grid-column-1 w-screen gap-5 sm:gap-15 sm:grid sm:grid-cols-3 justify-between items-center text-xl sm:text-2xl  mt-5 p-4'>
-        <div className='text-sm sm:text-xl'>
+        <div className='text-xl'>
           <h1 className=''>📍 Patia, Bhubaneswar, Odisha, India</h1>
         </div>
         <div className='grid grid-cols-1 gap-1 text-sm sm:text-xl'>
            <a href="mailto:prasadkumar9692@gmail.com">📩 prasadkumar9692@gmail.com</a>
            <a href="tel:+919692253099">☎️ +91 9692253099</a>
         </div>
-        <div className='sm:flex sm:flex-col text-sm sm:text-xl sm:items-center gap-3 sm:justify-center  flex flex-col  bg-[#323437]'>
+        <div className='sm:flex sm:flex-col text-xl sm:items-center gap-3 sm:justify-center  flex flex-col  bg-[#323437]'>
          <a href="https://facebook.com/prince.prasad.902819/" target="_blank" rel="noopener noreferrer">Facebook</a>
          <a href="https://x.com/Engg_Prasad7" target="_blank" rel="noopener noreferrer">Twitter</a>
          <a href="https://linkedin.com/in/prasad-kumar-sahoo-787865295" target="_blank" rel="noopener noreferrer">LinkedIn</a>
          <a href="https://github.com/Prasadksahoo" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
+          <div className='text-sm sm:text-xl sm:-mt-20 sm:w-screen  w-80 ml-2.5'><h1 className='text-center m-1 sm:m-1 sm:text-xl text-sm font-serif'>Any questions? feel free to ask</h1><ContactForm /></div>
        </div>
-      </div>
+     
+       </div>
+
     </div>
   )
 }
