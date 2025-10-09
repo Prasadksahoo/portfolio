@@ -236,14 +236,14 @@ const App = () => {
         <p className='text-center font-mono  p-2.5'>If you would like to get in touch, feel free to reach out!</p>
 
        <div className='grid grid-column-1 w-screen gap-5 sm:gap-15 sm:grid sm:grid-cols-3 justify-between items-center text-xl sm:text-2xl  mt-5 p-4'>
-        <div className='text-xl'>
+        <div className='text-sm sm:text-xl'>
           <h1 className=''>📍 Patia, Bhubaneswar, Odisha, India</h1>
         </div>
         <div className='grid grid-cols-1 gap-1 text-sm sm:text-xl'>
            <a href="mailto:prasadkumar9692@gmail.com">📩 prasadkumar9692@gmail.com</a>
            <a href="tel:+919692253099">☎️ +91 9692253099</a>
         </div>
-        <div className='sm:flex sm:flex-col text-xl sm:items-center gap-3 sm:justify-center  flex flex-col  bg-[#323437]'>
+        <div className='sm:flex sm:flex-col text-sm sm:text-xl sm:items-center gap-3 sm:justify-center  flex flex-col  bg-[#323437]'>
          <a href="https://facebook.com/prince.prasad.902819/" target="_blank" rel="noopener noreferrer">Facebook</a>
          <a href="https://x.com/Engg_Prasad7" target="_blank" rel="noopener noreferrer">Twitter</a>
          <a href="https://linkedin.com/in/prasad-kumar-sahoo-787865295" target="_blank" rel="noopener noreferrer">LinkedIn</a>
