@@ -27,7 +27,7 @@ const App = () => {
           <motion.button 
           whileHover={{ opacity: 0.9}}
           whileTap={{ scale: 0.95 }}
-          className= 'bg-white hidden sm:block px-6 py-2 rounded-r-full rounded-l-full bg-linear-to-bl from-violet-500 to-fuchsia-500 text-amber-100'><a href="#contact" download='PRASAD_KUMAR_SAHOO_RESUME'>Get in Touch</a></motion.button>
+          className= 'bg-white hidden sm:block px-6 py-2 rounded-r-full rounded-l-full bg-linear-to-bl from-violet-500 to-fuchsia-500 text-amber-100'><a href="#contact" >Get in Touch</a></motion.button>
           <motion.button   whileHover={{ opacity: 0.7}}
           whileTap={{ scale: 0.95 }}className= 'bg-linear-to-bl from-violet-500 to-fuchsia-500 block sm:hidden p-2 rounded-sm text-amber-100'
           onClick={() => setMenuOpen(!menuOpen)}> <svg
